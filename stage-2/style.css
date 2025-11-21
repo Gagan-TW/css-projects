@@ -1,0 +1,171 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#main-header {
+    background-color: rgb(67, 136, 247);
+    color: white;
+    display: flex;
+    border-top-left-radius: 15px;
+    padding: 10px 40px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-menu:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #bbdefb;
+
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+   
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content button {
+    color: white;
+    background-color: rgb(67, 136, 247);
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+}
+
+.card-image {
+    width: 60px;
+}
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 238, 238);
+    align-items: center;
+}
+
+.bottom-card h2 {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.small-cards {
+    display: flex;
+
+    
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.5rem;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 250px;
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    letter-spacing: 0.5;
+    margin-top: 10px;
+}
+
+.card:hover {
+    
+}
+
+#main-footer {
+    background-color: rgb(67, 136, 247);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+   
+
+}
+
+.footer-nav-menu p {
+    margin: 0;
+}
+
+.footer-nav-menu {
+    margin-top: 0.5rem;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+.footer-nav-menu a {
+    text-decoration: none;
+    color: white
+}
+
+.footer-nav-menu a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .small-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+ }
+
+@media (max-width: 768px) {
+    .small-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+ } 
