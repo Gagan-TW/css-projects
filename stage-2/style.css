@@ -134,12 +134,12 @@ body {
 }
 
 .footer-nav-menu {
-    margin-top: 0.5rem;
+    margin-top: 0;
     display: flex;
     list-style: none;
     align-items: center;
     gap: 40px;
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 20px;
 
     
